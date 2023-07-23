@@ -28,7 +28,7 @@
                     if (value.trim().length>0){i++;}
                     else {n++;}
                 }));
-                if(i<4){$scope.msg = "Enjoy!";}
+                if(i<4){$scope.msg = "EnjoyThe Food!";}
                 else{$scope.msg = "Too much!";}
             }
 
