@@ -19,7 +19,6 @@
             if ($scope.dishes.length === 0) {
                 $scope.message = "Please enter data first!";
                 $scope.color='red';
-
             } else {
                 $scope.color='purple';
                 var i=0; var n=0;
@@ -28,7 +27,7 @@
                     if (value.trim().length>0){i++;}
                     else {n++;}
                 }));
-                if(i<4){$scope.msg = "Enjoy!";}
+                if(i<4){$scope.msg = "Enjoy The Food!";}
                 else{$scope.msg = "Too much!";}
             }
 
